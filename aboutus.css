@@ -1,0 +1,53 @@
+/* Navbar spacing and appearance */
+.custom-navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #f57c00 !important;
+}
+/* Highlighted text */
+.highlight {
+  color: #f57c00;
+}
+
+/* Custom card styling */
+.custom-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon styling */
+.icon-box {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+
+/* Responsive text sizing */
+@media (max-width: 768px) {
+  .custom-card {
+    padding: 20px;
+  }
+  .icon-box {
+    font-size: 2rem;
+  }
+}

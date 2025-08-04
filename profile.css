@@ -1,0 +1,26 @@
+/* Navbar spacing and appearance */
+.custom-navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #f57c00 !important;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+form label {
+  font-weight: 500;
+}
